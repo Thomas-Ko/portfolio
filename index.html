@@ -96,7 +96,7 @@
          
          <h2>Skills</h2>
          
-         <ul class="skills-list">
+         <ul class="section-skills-list">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Javascript</li>
@@ -118,19 +118,72 @@
         
          <h2>Featured Projects</h2>
 
-         <div class="row">
+         <div class="row project-container">
             <div class="col-md-6">
-               <img class="project-img" src="http://placehold.it/496x279">
+               <img class="project-img img-responsive" src="http://placehold.it/496x279">
             </div>
             
-            <div class="col-md-6">
+            <div class="col-md-6 project-info">
                <h3>Breakfast-Rate</h3>
-               <p>Breakfast Rate is an app that let's users view, share, and comment on their favorite breakfast recipes. This was my first big project focusing on back-end development. I utilized 3/4 technologies of the MEAN stack: mongoDB, express.js, and node.js.</p>
-            </div>
+               <p>Breakfast Rate is an app that let's users view, share, and comment on their favorite breakfast recipes. This was my first big project focusing on back-end development. 
+               
+               <div class="takeaways">
+                  
+                  <h4 class="">Some key takeaways:</h4>
+                     
+                     <ul>
+                       
+                        <li>I used the <a href="http://passportjs.org/" target="_blank">passportjs</a> middleware to create a user registration and login system. </li>
+                       
+                        <li>I created a middleware to make sure only logged in users can add a recipe or comment, and I created a middleware used for comment and recipe authentication (allows only the owner to edit).</li>
+                       
+                        <li>I focused on making the recipe forms user-friendly. I used some jQuery fade effects to add a pleasing experience when a user adds ingredients and instructions. I used the <a href="https://jqueryvalidation.org/" target="_blank">jqueryvalidation</a> plugin to notify the user of missing input fields.</li>
+                       
+                        <li>When a user visits the specific show page of a recipe, there is a sidebar which retrieves three recipes from the database and displays them.</li>
+                    
+                     </ul>
 
-         </div>
+               </div> <!-- ./takeaways -->
+               
+               <div class="project-links">
+                  
+                  <a href="https://breakfast-rate.herokuapp.com/" target="_blank">
+                     <i class="fa fa-external-link" aria-hidden="true"></i>
+                     View Live
+                  </a>
+
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+
+                  <a href="https://github.com/Thomas-Ko/breakfast-rate/" target="_blank">
+                     <i class="fa fa-github" aria-hidden="true"></i>
+                     Github
+                  </a>   
+
+               </div> 
+
+               <ul class="skills-list">
+                  <li>Node</li>
+                  <li>Mongo</li>
+                  <li>Express</li>
+                  <li>Restful Routing</li>
+                  <li>Forms</li>
+                  <li>jQuery</li>
+                  <li>User Registration</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap</li>
+                  <li>Responsive Layout</li>
+               </ul>
+
+
+            </div>  <!-- /.project-info -->
+
+         </div> <!-- /.projectr -->
+
+         <hr>
       
-      </div>
+      </div> <!-- /.container -->
+
    </section>
    
 
