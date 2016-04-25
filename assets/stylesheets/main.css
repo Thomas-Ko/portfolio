@@ -11,12 +11,16 @@ hr {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    margin: 40px 0px;
+    margin: 50px 0px;
 }
 
 h2,h3 {
    margin-top:0;
    font-weight:bold;
+}
+
+h2 {
+   font-size:32px;
 }
 
 .navbar {
@@ -102,6 +106,8 @@ section {
    background: #fff;
 }
 
+
+
 #projects h2{
    margin-bottom:30px;
    margin-top:0px;
@@ -114,7 +120,11 @@ section {
 .project-img {
    display:block;
    margin:0 auto;
-   border: 1px solid #06263C;
+   margin-bottom:20px;
+
+   -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.39);
+   -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.39);
+   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.39);
 }
 
 .takeaways h4 {
@@ -132,6 +142,8 @@ section {
    list-style-type: none;
    padding-left:0;
    line-height: 35px;
+   margin:0;
+   margin-bottom:-5px;
 }
 
 .skills-list li {
