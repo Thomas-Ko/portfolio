@@ -3,7 +3,8 @@ body{
     height: 100%;
     font-family: 'Raleway', sans-serif;
     background:#06263C;
-    color:#5E5240;
+    color:#4d4d4d;
+    font-size:16px;
 }
 
 hr {
@@ -80,27 +81,7 @@ section {
    padding: 30px 0px;
 }
 
-#skills {
-   background-color:#D4C3AA;
-}
 
-
-.section-skills-list {
-   list-style-type: none;
-   padding-left:0;
-   line-height: 25px;
-   margin-bottom:0px;
-}
-
-.section-skills-list li {
-   font-size:20px;
-   display: inline;
-   /*border:1px solid black;*/
-   padding:3px;
-   border-radius: 2px;
-   /*background:#50748E;*/
-   margin-right:10px;
-}
 
 #projects {
    background: #fff;
@@ -160,4 +141,47 @@ section {
    margin-bottom:15px;
    font-size:16px;
    font-weight:bold;
+}
+
+
+/*SECTION SKILLS*/
+
+#skills {
+   background-color:#f2f2f2;
+   border-top:2px solid #d9d9d9;
+   border-bottom:2px solid #d9d9d9;
+}
+
+
+.section-skills-list {
+   list-style-type: none;
+   padding-left:0;
+   line-height: 25px;
+   margin-bottom:0px;
+}
+
+.section-skills-list li {
+   font-size:20px;
+   display: inline;
+   /*border:1px solid black;*/
+   padding:3px;
+   border-radius: 2px;
+   /*background:#50748E;*/
+   margin-right:10px;
+}
+
+
+/*SECTION CONTACT*/
+
+#contact {
+   background: #fff;
+}
+
+#contact .contact-intro {
+   margin-top:25px;
+   margin-bottom:25px;
+}
+
+#contact .contact-info {
+   font-size:18px;
 }
