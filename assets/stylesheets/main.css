@@ -3,8 +3,8 @@ body{
     height: 100%;
     font-family: 'Raleway', sans-serif;
     background:#06263C;
-    color:#4d4d4d;
-    font-size:16px;
+    color:#658181;
+    font-size:15px;
 }
 
 hr {
@@ -12,11 +12,15 @@ hr {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    margin: 50px 0px;
+    margin: 80px 0px;
 }
 
-h2,h3 {
+h1,h2,h3 {
    margin-top:0;
+   /*font-weight:bold;*/
+   /*letter-spacing:2px;*/
+   font-family: 'Oswald', sans-serif;
+   color: #4f6464;
    font-weight:bold;
 }
 
@@ -24,35 +28,52 @@ h2 {
    font-size:32px;
 }
 
+a {
+   color: #83D7E8;
+   font-weight: 550;
+}
+
+a:hover, a:focus {
+   color: #65A5B2;
+   text-decoration: none;
+}
+
+a:active {
+   color: #4E808A;
+}
+
 .navbar {
    margin-bottom: 0;
-   background-color: #06263C;
+   background-color: #284347;
    z-index: 9999;
-   border: 0;
+   /*border-bottom: 2px solid #06263C;*/
    font-size: 12px;
    line-height: 1.5;
    letter-spacing: 4px;
    border-radius: 0;
    font-family: Montserrat, sans-serif;
 }
+
+
+
 .navbar li a, .navbar .navbar-brand {
-   color: #50748E;
+   color: #fff;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
    color: #fff;
    background-color: #50748E;
 }
-.navbar-default .navbar-toggle {
+/*.navbar-default .navbar-toggle {
    border-color: transparent;
-   color: #50748E;
-}
+   color: #fff;
+}*/
 
 header {
   padding-top:100px;
-  background:#50748E;
+  background:#5c97a3;
   background-image: url("../img/bg.png");
    /*margin-bottom:25px;*/
-   border-bottom: 1px solid #06263C;
+   border-bottom: 2px solid #284347;
 
 }
 
@@ -78,7 +99,7 @@ header {
 
 section {
    /*background-image: url("../img/bg.png");*/
-   padding: 30px 0px;
+   padding: 80px 0px;
 }
 
 
@@ -94,9 +115,7 @@ section {
    margin-top:0px;
 }
 
-.project-info h3 {
-   font-weight:bold;
-}
+
 
 .project-img {
    display:block;
@@ -130,9 +149,10 @@ section {
 .skills-list li {
    display: inline;
    /*border:1px solid #06263C;*/
+   color: #5c838a;
    padding:5px;
    /*border-radius: 2px;*/
-   background:#D4C3AA;
+   background:#d9e6e6;
    /*color:white;*/
    margin-right:5px;
 }
@@ -147,9 +167,9 @@ section {
 /*SECTION SKILLS*/
 
 #skills {
-   background-color:#f2f2f2;
-   border-top:2px solid #d9d9d9;
-   border-bottom:2px solid #d9d9d9;
+   background-color:#CFEAEF;
+   border-top:2px solid #8CACB2;
+   border-bottom:2px solid #8CACB2;
 }
 
 
@@ -184,4 +204,11 @@ section {
 
 #contact .contact-info {
    font-size:18px;
+}
+
+/*FOOTER*/
+
+footer {
+   background:#284347;
+   min-height:100px;
 }
