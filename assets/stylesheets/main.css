@@ -68,7 +68,7 @@ a:active {
 
 .navbar-default2 .navbar-nav>li>a:hover, .navbar-default2 .navbar-nav>li>a:active {
    color: #fff;
-   background-color: #5c97a3;
+   background-color: rgba(92, 151, 163, 0.4)
 }
 
 .navbar-default2 .navbar-toggle {
@@ -87,6 +87,10 @@ a:active {
    background:#5c97a3;
 }
 
+
+.active {
+   background:#5c97a3;
+}
 
 
 
@@ -115,7 +119,7 @@ header {
 
 section {
    /*background-image: url("../img/bg.png");*/
-   padding: 80px 0px;
+   padding: 90px 0px;
 }
 
 
@@ -227,7 +231,7 @@ section {
 
 footer {
    background:#284347;
-   padding:50px;
+   padding:72px;
    font-size:45px;
    color: #5C97A3;
    text-align: center;
