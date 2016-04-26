@@ -29,17 +29,17 @@ h2 {
 }
 
 a {
-   color: #83D7E8;
-   font-weight: 550;
+   color: #3fb4da;
+   font-weight: 500;
 }
 
 a:hover, a:focus {
-   color: #65A5B2;
+   color: #1d7896;
    text-decoration: none;
 }
 
 a:active {
-   color: #4E808A;
+   color: #14556b;
 }
 
 .navbar {
@@ -61,7 +61,7 @@ a:active {
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
    color: #fff;
-   background-color: #50748E;
+   background-color: #5c97a3;
 }
 /*.navbar-default .navbar-toggle {
    border-color: transparent;
@@ -210,5 +210,42 @@ section {
 
 footer {
    background:#284347;
-   min-height:100px;
+   padding:50px;
+   font-size:45px;
+   color: #5C97A3;
+   text-align: center;
+}
+
+#socialicons .goodreads {
+    font-family: Arial, Sans-Serif;
+    font-size: 26px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+footer i {
+   /*margin-right:15px;*/
+}
+
+.footer-icons a {
+   color: #5C97A3;
+   opacity:0.6;
+}
+.footer-icons a:hover {
+   opacity:0.9;
+}
+
+.footer-icons a:active {
+      opacity:1.0;
+
+}
+
+footer img {
+   height:40px;
+   margin-bottom:5px;
+}
+
+footer p {
+   font-size:14px;
+   color: #5C97A3;
 }
