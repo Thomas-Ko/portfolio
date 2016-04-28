@@ -223,12 +223,38 @@ section {
 }
 
 #contact .contact-intro {
-   margin-top:25px;
-   margin-bottom:25px;
+   margin-top:50px;
+   margin-bottom:10px;
 }
 
 #contact .contact-info {
    font-size:18px;
+}
+
+.social-media-contact {
+   margin-top:50px;
+   margin-bottom:10px;
+}
+
+
+#contact .container .goodreads {
+   height:40px;
+   margin-bottom:20px;
+   background:#3fb4da;
+}
+
+#contact .container .goodreads:hover {
+   background:#1d7896;
+}
+
+#contact .container .goodreads:active {
+   background:#14556b;
+}
+
+
+#contact .container .fa {
+   font-size:45px;
+   margin-right:20px;
 }
 
 /*FOOTER*/
@@ -236,37 +262,31 @@ section {
 footer {
    background:#284347;
    padding:72px;
-   font-size:45px;
+   font-size:14px;
    color: #5C97A3;
    text-align: center;
 }
 
-footer i {
-   /*margin-right:15px;*/
+
+
+footer p a {
+   color: #5C97A3;
+   opacity:1;
+   font-weight: 400;
 }
 
-.footer-icons a {
-   color: #5C97A3;
-   opacity:0.6;
-}
-.footer-icons a:hover {
+footer p a:hover {
    opacity:0.9;
 }
 
-.footer-icons a:active {
-      opacity:1.0;
-
+footer p a:active {
+   opacity:0.8;
 }
 
-footer img {
-   height:40px;
-   margin-bottom:5px;
-}
 
-footer p {
-   font-size:14px;
-   color: #5C97A3;
-}
+
+
+
 
 @media screen and (max-width: 1199px) {
    .header-info {
