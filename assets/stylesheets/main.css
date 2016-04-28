@@ -209,7 +209,8 @@ section {
    color: #5c838a;
    padding:5px;
    /*border-radius: 2px;*/
-   background:#d9e6e6;
+   background:#f7f0ee;
+   border-radius:2px;
    /*color:white;*/
    margin-right:5px;
 }
@@ -233,7 +234,7 @@ section {
 .section-skills-list {
    list-style-type: none;
    padding-left:0;
-   line-height: 25px;
+   line-height: 40px;
    margin-bottom:0px;
 }
 
@@ -241,10 +242,11 @@ section {
    font-size:20px;
    display: inline;
    /*border:1px solid black;*/
-   padding:3px;
+   padding:5px;
    border-radius: 2px;
    /*background:#50748E;*/
-   margin-right:10px;
+   margin-right:20px;
+   background: #efe1dc;
 }
 
 
