@@ -35,17 +35,37 @@ h3 {
 }
 
 a {
-   color: #3fb4da;
+   color: #ff9966;
    font-weight: 500;
 }
 
 a:hover, a:focus {
-   color: #1d7896;
+   color: #ff7733;
    text-decoration: none;
 }
 
 a:active {
-   color: #14556b;
+   color: #ff661a;
+}
+
+
+
+
+/*icons*/
+.social-media {
+   font-size:45px;
+   margin-right:20px;
+}
+.goodreads {
+   height:40px;
+   margin-bottom:20px;
+   margin-right:20px;
+}
+.resume .social-media  {
+   margin-right:5px;
+}
+.resume {
+   font-size:14px;
 }
 
 .navbar {
@@ -61,14 +81,13 @@ a:active {
 }
 
 
-
 .navbar-default2 .navbar-nav>li>a {
    color: #fff;
 }
 
 .navbar-default2 .navbar-nav>li>a:hover, .navbar-default2 .navbar-nav>li>a:active {
    color: #fff;
-   background-color: rgba(92, 151, 163, 0.4)
+   background-color: rgba(255, 119, 51, 0.4)
 }
 
 .navbar-default2 .navbar-toggle {
@@ -76,7 +95,7 @@ a:active {
  }
 
  .navbar-default2 .navbar-toggle:focus, .navbar-default2 .navbar-toggle:hover {
-    background-color: #5c97a3;
+    background-color: #ff7733;
  }
 
  .navbar-default2 .navbar-toggle .icon-bar {
@@ -84,12 +103,12 @@ a:active {
  }
 
 .nav>li>a:focus, .nav>li>a:hover {
-   background:#5c97a3;
+   background:#ff7733;
 }
 
 
 .active {
-   background:#5c97a3;
+   background:#ff7733;
 }
 
 
@@ -109,6 +128,19 @@ header {
   font-size:20px;
   color:#f2f2f2;
 }
+
+.header-info .goodreads {
+   background:#ff9966;
+}
+
+.header-info .goodreads:hover {
+   background:#ff7733;
+}
+
+.header-info .goodreads:active {
+   background:#ff661a;
+}
+
 
 #headshot {
    display:block;
@@ -192,9 +224,9 @@ section {
 /*SECTION SKILLS*/
 
 #skills {
-   background-color:#CFEAEF;
-   border-top:2px solid #8CACB2;
-   border-bottom:2px solid #8CACB2;
+   background-color:#f7f0ee;
+   border-top:2px solid #e7d3cb;
+   border-bottom:2px solid #e7d3cb;
 }
 
 
@@ -238,24 +270,18 @@ section {
 
 
 #contact .container .goodreads {
-   height:40px;
-   margin-bottom:20px;
-   background:#3fb4da;
+   background:#ff9966;
 }
 
 #contact .container .goodreads:hover {
-   background:#1d7896;
+   background:#ff7733;
 }
 
 #contact .container .goodreads:active {
-   background:#14556b;
+   background:#ff661a;
 }
 
 
-#contact .container .fa {
-   font-size:45px;
-   margin-right:20px;
-}
 
 /*FOOTER*/
 
