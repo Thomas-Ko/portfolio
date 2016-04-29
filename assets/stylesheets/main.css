@@ -130,9 +130,9 @@ header {
 }
 
 .header-info {
-  padding-top:15px;
+  padding-top:0px;
   padding-left:100px;
-  font-size:20px;
+  font-size:16px;
   color:#f2f2f2;
 }
 
@@ -194,7 +194,7 @@ header {
    padding-bottom:5px;
 }
 
-.skills-list{
+.project-skills-list{
    list-style-type: none;
    padding-left:0;
    line-height: 35px;
@@ -203,7 +203,7 @@ header {
    margin-top:15px;
 }
 
-.skills-list li {
+.project-skills-list li {
    display: inline;
    /*border:1px solid #06263C;*/
    color: #5c838a;
@@ -219,6 +219,15 @@ header {
    margin-bottom:0px;
    font-size:16px;
    font-weight:bold;
+}
+
+.project-links a {
+   margin-right:10px;
+}
+
+.before {
+   font-size:12px;
+   margin-right:2px;
 }
 
 
@@ -316,7 +325,9 @@ footer p a:active {
 
 @media screen and (max-width: 1199px) {
    .header-info {
-      padding-top:10px;
+      padding-top:0px;
+      padding-left:50px;
+      font-size:15px;
    }
 }
 
@@ -338,7 +349,11 @@ footer p a:active {
 }
 
 @media screen and (max-width: 500px) {
-   .header-info {
-      font-size:16px;
+
+}
+
+@media screen and (max-width: 318px) {
+   .resume-text {
+      display:none;
    }
 }
