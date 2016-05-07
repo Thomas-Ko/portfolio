@@ -311,10 +311,12 @@ footer p a {
    opacity:1;
    font-weight: 400;
 }
-footer p a:hover {
+footer p a:hover, footer p a:focus  {
+   color: #5C97A3;
    opacity:0.9;
 }
 footer p a:active {
+   color: #5C97A3;
    opacity:0.8;
 }
 
