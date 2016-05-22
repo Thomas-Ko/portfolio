@@ -2,34 +2,34 @@
 <html lang="en">
 <head>
 
- 	<meta charset="utf-8">
+   <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  	<title>Thomas Kolodziejczak | Web Portfolio</title>
+   <title>Thomas Kolodziejczak | Web Portfolio</title>
 
    <!-- FONTS -->
-  	   <link href='https://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
    <!-- STYLESHEETS -->
 
       <!-- bootstrap cdn-->
-     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
       <!-- fontawesome cdn -->
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
      
       <!-- MAIN stylesheet -->
-     	<link rel="stylesheet" href="assets/stylesheets/main.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.css">
 
    <!-- SCRIPTS -->
 
       <!-- jQuery CDN-->
-   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
       <!-- Bootstrap Javascript CDN -->
-   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -68,7 +68,6 @@
       <div class="container">
          <div class="row">
             <div class="col-md-6 header-info">
-   
                <div class="summary">
                   <p>Hey! I'm Thomas Kolodziejczak.</p>
                   <p>I'm a self-taught web developer whose main focus is on front-end development, but I do have some experience with back-end technologies in the MEAN stack. I'm highly motivated and a very good self learner. I like figuring out how things work and then applying those skills on new challenges and projects.</p>
@@ -76,13 +75,13 @@
 
                <a href="https://www.linkedin.com/in/thomaskolodziejczak" target="_blank" ><i class="social-media fa fa-linkedin-square" aria-hidden="true"></i></a>
                <a href="https://github.com/Thomas-Ko" target="_blank"><i class=" social-media fa fa-github-square" aria-hidden="true"></i></a>
-               <a href="https://www.goodreads.com/user/show/35381496-thomas-kolodziejczak" target="_blank"><img class="goodreads" src="assets/img/icon-goodreads-header.svg" alt ="Goodreads icon"></a>
+               <a href="https://www.goodreads.com/user/show/35381496-thomas-kolodziejczak" target="_blank"><img class="goodreads" src="assets/img/icon-goodreads-header.svg"></a>
                <a class="resume" href="assets/resume.pdf" target="_blank"><i class="social-media fa fa-file-pdf-o" aria-hidden="true"></i><span class="resume-text">Resume</span></a>
 
             </div>
             
             <div class="col-md-6">
-               <img id="headshot" class="img-responsive" src="assets/img/headshot.svg" alt ="Thomas Kolodziejczak picture">
+               <img id="headshot" class="img-responsive" src="assets/img/headshot.svg">
             </div>        
 
          </div>
@@ -97,11 +96,228 @@
         
          <h2>Featured Projects</h2>
          <p class="subheader">All projects were done all by myself, built from the ground up (except for using frameworks such as Bootstrap and some libraries). </p>
+
+        <!-- Twitch Streamer Project -->
+         <div class="row project-container">
+            <div class="col-md-6">
+               <img class="project-img img-responsive" src="assets/img/project-twitch-streamer.jpg">
+            </div>
+            
+            <div class="col-md-6 project-info">
+               <h3>Twitch Streamer</h3>
+               <p>Using the Twitch API, this app shows the user a bunch of twitch channels and tells whether they are online or offline. The user can sort what is shown by offline and online tabs. </p>
+
+                <ul class="project-skills-list">
+                  <li>AJAX / APIs</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>MVC</li>
+                  <li>Responsive Layout</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap</li>
+               </ul>
+               
+               <div class="takeaways">
+                  
+                  <h4 class="">Some key takeaways:</h4>
+                     
+                     <ul>
+                       
+                        <li>If a channel is unprocessable or doesn't exist, the API displays that information and adds the correct classes and icons.</li>
+                        
+                        <li>If a channel does not have a logo, a default image is given.</li>
+                       
+                        <li>Using a model view controller format, the app is easily scalable. In the javascript file, to remove or add a channel is as simple as deleting / adding it to an array in the model section.</li>
+                    
+                     </ul>
+
+               </div> <!-- ./takeaways -->
+               
+               <div class="project-links">
+                  
+                  <a href="http://thomas-ko.github.io/twitch-streamer/" target="_blank">
+                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live
+                  </a>
+
+                  <a href="https://github.com/Thomas-Ko/twitch-streamer" target="_blank">
+                     <i class="fa fa-github" aria-hidden="true"></i> Github
+                  </a>   
+
+               </div> 
+
+            </div>  <!-- /.project-info -->
+
+         </div> <!-- /.project-container -->
+
+         <hr>
+   
+        <!-- Wikipedia Viewer Project -->
+         <div class="row project-container">
+            <div class="col-md-6">
+               <img class="project-img img-responsive" src="assets/img/project-wikipedia-viewer.jpg">
+            </div>
+            
+            <div class="col-md-6 project-info">
+               <h3>Wikipedia Viewer</h3>
+               <p>Using the Wikipedia API, this app allows a user enter a search query and it displays the top wikipedia articles (up to ten of them) on that query.</p>
+
+                <ul class="project-skills-list">
+                  <li>AJAX / APIs</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>MVC</li>
+                  <li>Responsive Layout</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap</li>
+               </ul>
+               
+               <div class="takeaways">
+                  
+                  <h4 class="">Some key takeaways:</h4>
+                     
+                     <ul>
+                       
+                        <li>I used an object constructor in my code to easily arrange the information from the API and create an object for every result.</li>
+                       
+                        <li>If a user's search doesn't yield any results, the app will tell them.</li>
+                    
+                     </ul>
+
+               </div> <!-- ./takeaways -->
+               
+               <div class="project-links">
+                  
+                  <a href="http://thomas-ko.github.io/wikipedia-viewer/" target="_blank">
+                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live
+                  </a>
+
+                  <a href="https://github.com/Thomas-Ko/wikipedia-viewer" target="_blank">
+                     <i class="fa fa-github" aria-hidden="true"></i> Github
+                  </a>   
+
+               </div> 
+
+            </div>  <!-- /.project-info -->
+
+         </div> <!-- /.project-container -->
+
+         <hr>
+
+      <!-- Weather App Project -->
+         <div class="row project-container">
+            <div class="col-md-6">
+               <img class="project-img img-responsive" src="assets/img/project-weather-app.jpg">
+            </div>
+            
+            <div class="col-md-6 project-info">
+               <h3>Weather App</h3>
+               <p>This app shows the user's current weather by retrieving weather information for the <a href="http://thomas-ko.github.io/weather-app/" target="_blank">Weather Underground</a> API. Additionally, the user can also search the weather by inputting a zipcode.</p>
+
+                <ul class="project-skills-list">
+                  <li>AJAX / APIs</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>MVC</li>
+                  <li>Responsive Layout</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Vector Graphics</li>
+                  <li>Bootstrap</li>
+               </ul>
+               
+               <div class="takeaways">
+                  
+                  <h4 class="">Some key takeaways:</h4>
+                     
+                     <ul>
+                       
+                        <li>This was my second API project. This app uses a more complex API which taught me even more about AJAX and API calls.</li>
+                       
+                        <li>I structured this project's code in a model-view-controller format.</li>
+                       
+                        <li>I didn't like the default graphics that come with the API, so I used found some graphics from dribbble.com. Look at my javascript file and see my view.renderImg function to see how I implemented them.</li>
+                        
+                        <li>A user can go from fahrenheit to celsius and vice versa by clicking the F or C.</li>
+                    
+                     </ul>
+
+               </div> <!-- ./takeaways -->
+               
+               <div class="project-links">
+                  
+                  <a href="http://thomas-ko.github.io/weather-app/" target="_blank">
+                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live
+                  </a>
+
+                  <a href="https://github.com/Thomas-Ko/weather-app/" target="_blank">
+                     <i class="fa fa-github" aria-hidden="true"></i> Github
+                  </a>   
+
+               </div> 
+
+            </div>  <!-- /.project-info -->
+
+         </div> <!-- /.project-container -->
+
+         <hr>
+
+         <!-- Random Quote Generator -->
+         <div class="row project-container">
+            <div class="col-md-6">
+               <img class="project-img img-responsive" src="assets/img/project-random-quote-generator.jpg">
+            </div>
+            
+            <div class="col-md-6 project-info">
+               <h3>Random Quote Generator</h3>
+               <p>This app retrieves a quote from the <a href="https://market.mashape.com/andruxnet/random-famous-quotes" target="_blank">Random Famous Quotes</a> API and displays it. Like the quote? Tweet it by clicking the twitter button. Don't like the quote? Click the "New Quote" button.</p>
+
+               <ul class="project-skills-list">
+                  <li>AJAX / APIs</li>
+                  <li>Javascript</li>
+                  <li>MVC</li>
+                  <li>HTML5</li> 
+                  <li>Responsive Layout</li>
+               </ul>
+               
+               <div class="takeaways">
+                  
+                  <h4 class="">Some key takeaways:</h4>
+                     
+                     <ul>
+
+                       <li>While I had read about MVC frameworks before, this was the first time I implemented my javascript code in a model-view-controller format.</li>
+                        <li>This was my first time working with an API. It got me excited for what I could do in the future. I could already feel the power coursing through my veins.</li>
+                        
+                    
+                     </ul>
+
+               </div> <!-- ./takeaways -->
+               
+               <div class="project-links">
+
+                  <a href="http://thomas-ko.github.io/random-quote-generator/" target="_blank">
+                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live
+                  </a>
+
+                  <a href="https://github.com/Thomas-Ko/random-quote-generator" target="_blank">
+                     <i class="fa fa-github" aria-hidden="true"></i> Github
+                  </a>   
+
+               </div> 
+
+            </div>  <!-- /.project-info -->
+
+         </div> <!-- /.project-container -->
+
+         <hr>
+
          
          <!-- Breakfast-Rate Project -->
          <div class="row project-container">
             <div class="col-md-6">
-               <img class="project-img img-responsive" src="assets/img/project-breakfast-rate.jpg" alt ="Breakfast-Rate project">
+               <img class="project-img img-responsive" src="assets/img/project-breakfast-rate.jpg">
             </div>
             
             <div class="col-md-6 project-info">
@@ -109,13 +325,11 @@
                <p>Breakfast Rate is an app that let's users view, share, and comment on their favorite breakfast recipes. This was my first big project focusing on back-end development. </p>
 
                <ul class="project-skills-list">
-                  <li>Node</li>
+                  <li>Node.js</li>
                   <li>Mongo</li>
-                  <li>Express</li>
+                  <li>Express.js</li>
                   <li>Restful Routing</li>
-                  <li>Forms</li>
                   <li>jQuery</li>
-                  <li>User Registration</li>
                   <li>HTML5</li>
                   <li>CSS3</li>
                   <li>Bootstrap</li>
@@ -162,7 +376,7 @@
          <!-- Freecodecamp Redesign Project -->
          <div class="row project-container">
             <div class="col-md-6">
-               <img class="project-img img-responsive" src="assets/img/project-freecodecamp-redesign.jpg" alt ="Freecodecamp redesign project">
+               <img class="project-img img-responsive" src="assets/img/project-freecodecamp-redesign.jpg">
             </div>
             
             <div class="col-md-6 project-info">
@@ -217,7 +431,7 @@
          <!-- Pizza Builder Project -->
          <div class="row project-container">
             <div class="col-md-6">
-               <img class="project-img img-responsive" src="assets/img/project-pizza-builder.jpg" alt ="Pizza Builder project">
+               <img class="project-img img-responsive" src="assets/img/project-pizza-builder.jpg">
             </div>
             
             <div class="col-md-6 project-info">
@@ -274,7 +488,7 @@
          <!-- RGB Color Game Project -->
          <div class="row project-container">
             <div class="col-md-6">
-               <img class="project-img img-responsive" src="assets/img/project-rgb-color-game.jpg" alt ="RGB Color Game project">
+               <img class="project-img img-responsive" src="assets/img/project-rgb-color-game.jpg">
             </div>
             
             <div class="col-md-6 project-info">
@@ -294,18 +508,18 @@
                      
                      <ul>
                        
-                        <li>I didn't use jQuery. I practiced using plain javascript to learn and understand more about DOM manipulation and event listeners.</li>
+                        <li>I didn't use jQuery. I practiced using plain javascript to learn and understand more about event listeners and how they work.</li>
                      </ul>
 
                </div> <!-- ./takeaways -->
                
                <div class="project-links">
                   
-                  <a href="http://thomas-ko.github.io/RGB-color-game/" target="_blank">
+                  <a href="http://thomas-ko.github.io/rgb-color-game/" target="_blank">
                      <i class="fa fa-external-link" aria-hidden="true"></i> View Live
                   </a>
 
-                  <a href="https://github.com/Thomas-Ko/RGB-color-game/" target="_blank">
+                  <a href="https://github.com/Thomas-Ko/rgb-color-game/" target="_blank">
                      <i class="fa fa-github" aria-hidden="true"></i> Github
                   </a>   
 
@@ -350,11 +564,12 @@
          <h2>Get in Touch</h2>
          <p class="contact-intro">The best way to get in touch with me is through email. I'll do my best to respond promptly.</p>
          <p class="contact-info"><strong>email:</strong> tomkolodzi@gmail.com</p>
+         <p class="contact-info"><strong>phone:</strong> (508) 505-6170</p>
          
          <p class="social-media-contact">You can also try to contact me through social media</p>
             <a href="https://www.linkedin.com/in/thomaskolodziejczak" target="_blank" ><i class="social-media fa fa-linkedin-square" aria-hidden="true"></i></a>
             <a href="https://github.com/Thomas-Ko" target="_blank"><i class="social-media fa fa-github-square" aria-hidden="true"></i></a>
-            <a href="https://www.goodreads.com/user/show/35381496-thomas-kolodziejczak" target="_blank"><img class="goodreads" src="assets/img/icon-goodreads-contact.svg" alt ="Goodreads icon"></a>
+            <a href="https://www.goodreads.com/user/show/35381496-thomas-kolodziejczak" target="_blank"><img class="goodreads" src="assets/img/icon-goodreads-contact.svg"></a>
 
       </div>
 
