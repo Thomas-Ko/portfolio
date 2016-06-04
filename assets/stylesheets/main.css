@@ -121,7 +121,7 @@ a:active {
 ==============================*/
 
 header {
-  padding-top:100px;
+  padding-top:85px;
   background:#5c97a3;
   background-image: url("../img/bg.png");
    /*margin-bottom:25px;*/
@@ -137,9 +137,8 @@ header {
 }
 
 .summary {
-  margin-bottom:50px;
+  margin-bottom:20px;
 }
-
 
 /*goodreads icon*/
 .header-info .goodreads {
@@ -344,7 +343,7 @@ footer p a:active {
 
 @media screen and (max-width: 991px) {
    .header-info {
-      margin-top:-25px;
+      /*margin-top:-10px;*/
       padding-top:0px;
       padding-left:15px;
       padding-right:15px;
