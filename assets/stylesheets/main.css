@@ -137,7 +137,7 @@ header {
 }
 
 .summary {
-  margin-bottom:20px;
+  margin-bottom:30px;
 }
 
 /*goodreads icon*/
@@ -362,6 +362,11 @@ footer p a:active {
     .header-info {
       font-size:16px;
    }
+
+   header {
+    padding-top:75px;
+   }
+
 }
 
 @media screen and (max-width: 318px) {
