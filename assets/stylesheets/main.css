@@ -263,6 +263,10 @@ header {
    background: #efe1dc;
 }
 
+#experienceWith {
+  margin-top:20px;
+}
+
 
 /*==============================
    CONTACT Section
@@ -273,7 +277,7 @@ header {
 }
 
 #contact .contact-intro {
-   margin-top:50px;
+   margin-top:30px;
    margin-bottom:10px;
 }
 
@@ -282,7 +286,7 @@ header {
 }
 
 .social-media-contact {
-   margin-top:50px;
+   margin-top:30px;
    margin-bottom:10px;
 }
 
