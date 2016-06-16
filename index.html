@@ -99,61 +99,6 @@
         
          <h2>Featured Projects</h2>
          <p class="subheader">All projects were done all by myself, built from the ground up (except for using frameworks such as Bootstrap and some libraries). </p>
-         
-          <!-- Simon Game Project 
-        ====================================================-->
-         <div class="row project-container">
-            <div class="col-md-6">
-               <img class="project-img img-responsive" src="assets/img/project-simon-game.jpg">
-            </div>
-            
-            <div class="col-md-6 project-info">
-               <h3>Simon Game</h3>
-               <p>This game is a clone of the memory game Simon. It's the user's job to copy the color sequence of the computer.</p>
-
-                <ul class="project-skills-list">
-                  <li>Javascript</li>
-                  <li>jQuery</li>
-                  <li>MVC</li>
-                  <li>Responsive Layout</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Bootstrap</li>
-               </ul>
-               
-               <div class="takeaways">
-                  
-                  <h4 class="">Some key takeaways:</h4>
-                     
-                     <ul>
-                        <li>When strict mode is on, if the user gets the sequence wrong, the game restarts. If the user gets the sequence wrong with strict mode off, the sequence plays again.</li>
-
-                        <li>There are two displays in the middle of the game. One shows how long the current sequence is. The other displays whose turn it is, the computer or player.</li>
-
-                        <li>When the user gets to the winning number, 20, the game does a short flashing animation and restarts.</li>
-
-                        <li>The game has different sounds for all color presses as well as an error sound when you get the sequence wrong.</li>
-                     </ul>
-
-               </div> <!-- ./takeaways -->
-               
-               <div class="project-links">
-                  
-                  <a href="http://thomas-ko.github.io/simon-game/" target="_blank">
-                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live
-                  </a>
-
-                  <a href="https://github.com/Thomas-Ko/simon-game" target="_blank">
-                     <i class="fa fa-github" aria-hidden="true"></i> Github
-                  </a>   
-
-               </div> 
-
-            </div>  <!-- /.project-info -->
-
-         </div> <!-- /.project-container -->
-
-         <hr>
 
          <!-- Breakfast-Rate Project 
          ====================================================-->
@@ -164,7 +109,7 @@
             
             <div class="col-md-6 project-info">
                <h3>Breakfast-Rate</h3>
-               <p>Breakfast Rate is an app that let's users view, share, and comment on their favorite breakfast recipes. This was my first big project focusing on back-end development. </p>
+               <p>Breakfast Rate is an app that let's registered and logged-in users view, share, and comment on their favorite breakfast recipes.</p>
 
                <ul class="project-skills-list">
                   <li>Node.js</li>
@@ -267,8 +212,138 @@
 
          <hr>
 
+         <!-- Freecodecamp Redesign Project 
+         ====================================================-->
+         <div class="row project-container">
+            <div class="col-md-6">
+               <img class="project-img img-responsive" src="assets/img/project-freecodecamp-redesign.jpg">
+            </div>
+            
+            <div class="col-md-6 project-info">
+               <h3>Freecodecamp Redesign</h3>
+               <p>First impressions are everything. This redesign gives freecodecamp.com a fresh modern look that retains a "campsite" feel but makes the website appear more credible and professional.</p>
+
+               <ul class="project-skills-list">
+                  <li>Bootstrap</li>
+                  <li>Responsive Layout</li>
+                  <li>HTML5</li> 
+                  <li>CSS3</li>
+                  <li>UX Design</li>
+               </ul>
+               
+               <div class="takeaways">
+                  
+                  <h4 class="">Some key takeaways:</h4>
+                     
+                     <ul>
+                        <li>I added important information that was omitted in the original design to make the user understand what freecodecamp is as well as get them more excited to try it out. For example, I included <em>"Free Code Camp is a proven path to your first coding job. In fact, no one has actually completed our entire program, because campers get jobs before they're able to."</em> This key piece of info was found in a secondary page when it should be featured in the home page!</li>
+                       
+                        <li>I manipulated some svg graphics, a cover photo, and icons to enhance the presentation.</li>
+                     </ul>
+
+               </div> <!-- ./takeaways -->
+               
+               <div class="project-links">
+                  
+                  <a data-toggle="modal" data-target="#freecodecampModal">
+                     <span id="before">(before)</span>
+                  </a>
+
+                  <a href="http://thomas-ko.github.io/freecodecamp-redesign/" target="_blank">
+                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live (after)
+                  </a>
+
+                  <a href="https://github.com/Thomas-Ko/freecodecamp-redesign/" target="_blank">
+                     <i class="fa fa-github" aria-hidden="true"></i> Github
+                  </a>   
+
+               </div> 
+
+            </div>  <!-- /.project-info -->
+
+         </div> <!-- /.project-container -->
+
+         <!-- Modal -->
+         
+         <div id="freecodecampModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+               <!-- Modal content-->
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4 class="modal-title">freecodecamp.com (before)</h4>
+                  </div>
+                  <div class="modal-body">
+                     <img class="img-responsive" src="assets/img/freecodecamp-before.png">
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+         <hr>
+
+         <!-- Simon Game Project 
+         ====================================================-->
+         <div class="row project-container">
+            <div class="col-md-6">
+               <img class="project-img img-responsive" src="assets/img/project-simon-game.jpg">
+            </div>
+            
+            <div class="col-md-6 project-info">
+               <h3>Simon Game</h3>
+               <p>This game is a clone of the memory game Simon. It's the user's job to repeat the color sequence of the computer.</p>
+
+                <ul class="project-skills-list">
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                  <li>MVC</li>
+                  <li>Responsive Layout</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap</li>
+               </ul>
+               
+               <div class="takeaways">
+                  
+                  <h4 class="">Some key takeaways:</h4>
+                     
+                     <ul>
+                        <li>When strict mode is on, if the user gets the sequence wrong, the game restarts. If the user gets the sequence wrong with strict mode off, the sequence plays again.</li>
+
+                        <li>There are two displays in the middle of the game. One shows how long the current sequence is. The other displays whose turn it is, the computer or player.</li>
+
+                        <li>When the user gets to the winning number, 20, the game does a short flashing animation and restarts.</li>
+
+                        <li>The game has different sounds for all color presses as well as an error sound when you get the sequence wrong.</li>
+                     </ul>
+
+               </div> <!-- ./takeaways -->
+               
+               <div class="project-links">
+                  
+                  <a href="http://thomas-ko.github.io/simon-game/" target="_blank">
+                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live
+                  </a>
+
+                  <a href="https://github.com/Thomas-Ko/simon-game" target="_blank">
+                     <i class="fa fa-github" aria-hidden="true"></i> Github
+                  </a>   
+
+               </div> 
+
+            </div>  <!-- /.project-info -->
+
+         </div> <!-- /.project-container -->
+
+         <hr>
+
           <!-- Weather App Project 
-      ====================================================-->
+         ====================================================-->
          <div class="row project-container">
             <div class="col-md-6">
                <img class="project-img img-responsive" src="assets/img/project-weather-app.jpg">
@@ -572,58 +647,6 @@
                   </a>
 
                   <a href="https://github.com/Thomas-Ko/random-quote-generator" target="_blank">
-                     <i class="fa fa-github" aria-hidden="true"></i> Github
-                  </a>   
-
-               </div> 
-
-            </div>  <!-- /.project-info -->
-
-         </div> <!-- /.project-container -->
-
-         <hr>
-
-         <!-- Freecodecamp Redesign Project 
-         ====================================================-->
-         <div class="row project-container">
-            <div class="col-md-6">
-               <img class="project-img img-responsive" src="assets/img/project-freecodecamp-redesign.jpg">
-            </div>
-            
-            <div class="col-md-6 project-info">
-               <h3>Freecodecamp Redesign</h3>
-               <p>First impressions are everything. This redesign gives freecodecamp.com a fresh modern look that retains a "campsite" feel but makes the website appear more credible and professional.</p>
-
-               <ul class="project-skills-list">
-                  <li>Bootstrap</li>
-                  <li>Responsive Layout</li>
-                  <li>HTML5</li> 
-                  <li>CSS3</li>
-               </ul>
-               
-               <div class="takeaways">
-                  
-                  <h4 class="">Some key takeaways:</h4>
-                     
-                     <ul>
-                        <li>I added important information that was omitted in the original design to make the user understand what freecodecamp is as well as get them more excited to try it out. For example, I included <em>"Free Code Camp is a proven path to your first coding job. In fact, no one has actually completed our entire program, because campers get jobs before they're able to."</em> This key piece of info was found in a secondary page when it should be featured in the home page!</li>
-                       
-                        <li>I manipulated some svg graphics, a cover photo, and icons to enhance the presentation.</li>
-                     </ul>
-
-               </div> <!-- ./takeaways -->
-               
-               <div class="project-links">
-                  
-                  <a href="http://web.archive.org/web/20160220103441/http://www.freecodecamp.com/" target="_blank">
-                     <span class="before">(before)</span>
-                  </a>
-
-                  <a href="http://thomas-ko.github.io/freecodecamp-redesign/" target="_blank">
-                     <i class="fa fa-external-link" aria-hidden="true"></i> View Live (after)
-                  </a>
-
-                  <a href="https://github.com/Thomas-Ko/freecodecamp-redesign/" target="_blank">
                      <i class="fa fa-github" aria-hidden="true"></i> Github
                   </a>   
 

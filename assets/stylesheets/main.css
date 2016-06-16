@@ -229,9 +229,10 @@ header {
    margin-right:10px;
 }
 
-.before {
+#before {
    font-size:12px;
    margin-right:2px;
+   cursor:pointer;
 }
 
 
