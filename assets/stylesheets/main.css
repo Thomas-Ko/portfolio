@@ -137,7 +137,7 @@ header {
 }
 
 .summary {
-  margin-bottom:30px;
+  margin-top:60px;
 }
 
 /*goodreads icon*/
@@ -167,11 +167,12 @@ header {
 
 #projects h2{
    margin-top:0px;
+    margin-bottom:50px;
 }
 
-#projects .subheader {
+/*#projects .subheader {
    margin-bottom:50px;
-}
+}*/
 
 .project-info p {
    margin:0px;
@@ -284,6 +285,7 @@ header {
 
 #contact .contact-info {
    font-size:18px;
+   margin-bottom: 0px;
 }
 
 .social-media-contact {
@@ -343,6 +345,7 @@ footer p a:active {
 
    .summary {
       margin-bottom:20px;
+      margin-top:20px;
     }
 }
 
