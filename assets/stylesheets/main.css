@@ -170,6 +170,11 @@ header {
     margin-bottom:50px;
 }
 
+.not-supported {
+  color: red;
+  font-weight:bold;
+}
+
 /*#projects .subheader {
    margin-bottom:50px;
 }*/
